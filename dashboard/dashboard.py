@@ -74,7 +74,7 @@ def create_hourly_bike_clusters(df, n_clusters=3):
     return hourly_bike_df, kmeans
 
 # Load data
-main_data = pd.read_csv("main_data.csv")
+main_data = pd.read_csv("dashboard/main_data.csv")
 
 # Konversi kolom datetime dan urutkan berdasarkan tanggal
 datetime_columns = ["dteday"]
